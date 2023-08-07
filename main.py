@@ -12,4 +12,4 @@ def main(audio=config['audio'], access_token=config['access_token'], v='5.131'):
     time.sleep(60) # Обновление статуса каждую минуту (желательно выставить время музыки)
 
 while True:
-    main()
+    main(python3 main.py)
